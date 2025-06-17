@@ -1,0 +1,27 @@
+{
+  "customer": {
+      "_id": "c002",
+      "firstName": "Chiefferi",
+      "lastName": "McDaniels",
+      "orders": [
+          {
+              "burgerName": "Classic Double Cheese",
+              "price": 5.49,
+              "quantity": 3
+          },
+          {
+              "burgerName": "Baconator Deluxe",
+              "price": 8.25,
+              "quantity": 1
+          },
+          {
+              "burgerName": "Double Veggie Delight",
+              "price": 4.99,
+              "quantity": 2
+          }
+      ]
+  }
+
+}
+
+
