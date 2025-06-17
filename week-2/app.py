@@ -15,6 +15,7 @@ Description: A simple Python script that greets the user by name.
 #print("Hello, " + name + "!")
 
 # Here is the Homework
-
+print("Hello, world!")
+print("Here's the quote of the day:")
 print('"Nobody can give you freedom. Nobody can give you equality or justice or anything. If you are a man, you take it."')
 print("- Malcom X")
