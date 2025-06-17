@@ -5,6 +5,7 @@ File Name: app.py
 Description: A simple Python script that greets the user by name.
 """
 
+
 """
 age = 25
 first_name = "Alice"
