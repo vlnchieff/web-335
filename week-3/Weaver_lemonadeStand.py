@@ -19,7 +19,7 @@ lemons_cost = 4.89
 sugar_cost = 2.49
 selling_price = 1.50
 
-#Using string formatting to show the cost calcuation
+#Using string formatting to show the cost calculation
 cost_result = str(lemons_cost) + " + " + str(sugar_cost) + " = " + str(calculate_cost(lemons_cost, sugar_cost))
 
 #Calculating profit
