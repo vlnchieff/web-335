@@ -1,0 +1,37 @@
+{
+  "viewer": {
+    "_id": "v0016",
+    "firstName": "Chiefferi",
+    "lastName": "McDaniels",
+    "ratings": [
+      {
+        "_id": "cw3001",
+        "ratingScore": 4.5,
+        "movie": {
+          "_id": "m2003",
+          "movieName": "The Last Horizon",
+          "genre": "Sci-Fi"
+        }
+      },
+      {
+        "_id": "cw3002",
+        "ratingScore": 3.0,
+        "movie": {
+          "_id": "m2007",
+          "movieName": "Laugh Lines",
+          "genre": "Comedy"
+        }
+      },
+      {
+        "_id": "cw3003",
+        "ratingScore": 5.0,
+        "movie": {
+          "_id": "m2008",
+          "movieName": "The Silent Echo",
+          "genre": "Drama"
+        }
+      }
+
+    ]
+  }
+}
