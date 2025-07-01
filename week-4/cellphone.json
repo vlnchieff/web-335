@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "_id": "u4",
+      "firstName": "Chiefferi",
+      "lastName": "McDaniels"
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "c4",
+      "chargerType": "USB-C",
+      "voltage": 30
+    }
+  ],
+  "devices": [
+    {
+      "_id": "d1",
+      "deviceName": "Apple iPhone 11",
+      "deviceType": "Phone",
+      "user_id": "u4",
+      "charger_id": "c4"
+    },
+    {
+      "_id": "d2",
+      "deviceName": "Samsung Tablet",
+      "deviceType": "Tablet",
+      "user_id": "u4",
+      "charger_id": "c4"
+    }
+  ]
+}
