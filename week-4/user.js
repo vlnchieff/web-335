@@ -4,7 +4,6 @@
  * Description: Script to populate the web335DB users collection
  */
 
-use("web335DB");
 
 db.users.insertMany([
   {
@@ -26,3 +25,17 @@ db.users.insertMany([
     employeeId: "3030"
   }
 ]);
+
+
+
+db.createRole({
+  role: "web335Admin",
+  privileges: [
+    {
+      resource: { db: "web335DB", collection: "" },
+      actions: ["find", "insert", "update", "remove", "createCollection"]
+    }
+  ],
+  roles: []
+})
+
